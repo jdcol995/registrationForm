@@ -23,6 +23,13 @@
         </label>
       </fieldset>
       <fieldset>
+
+        <label for="gender-male"><input id="gender-male" type="radio" name="gender" class="inline" /> Male</label>
+        <label for="gender-female"><input id="gender-female" type="radio" name="gender" class="inline" /> Female</label>
+        <label for="gender-non"><input id="gender-non" type="radio" name="gender" class="inline" /> Non-Binary</label>
+
+      </fieldset>
+      <fieldset>
         <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
         <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
         <label for="referrer">How did you hear about us?
@@ -35,7 +42,7 @@
           </select>
         </label>
         <label for="bio">Provide a bio:
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Ever since I was little, coding was my pasion..."></textarea>
         </label>
       </fieldset>
       <input type="submit" value="Submit" />
